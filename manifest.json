@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Ecosia Improvements",
+    "version": "1.0",
+    "description": "Hides the \"please disabled adblock\" div that shows up with the search results.",
+    "content_scripts": [ {
+        "matches": ["https://www.ecosia.org/*"],
+        "js": ["content.js"]
+    } ]
+}
